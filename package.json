@@ -2,6 +2,7 @@
   "name": "my-next-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yagmurgulec.github.io/porfolio/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
