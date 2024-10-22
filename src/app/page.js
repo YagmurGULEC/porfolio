@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import prefix from "./prefix";
+import profilePic from '../../public/next.svg'
 
 export default function Home() {
  
@@ -9,7 +9,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src={`${prefix.prefix}/next.svg`}
+          src={profilePic}
           alt="Next.js logo"
           width={180}
           height={38}
